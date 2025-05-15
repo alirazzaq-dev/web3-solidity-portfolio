@@ -4,3 +4,12 @@
 [submodule "ERC20/lib/openzeppelin-contracts"]
 	path = ERC20/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "ERC721/lib/forge-std"]
+	path = ERC721/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "ERC721/lib/openzeppelin-contracts"]
+	path = ERC721/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "ERC721/lib/foundry-devops"]
+	path = ERC721/lib/foundry-devops
+	url = https://github.com/Cyfrin/foundry-devops
