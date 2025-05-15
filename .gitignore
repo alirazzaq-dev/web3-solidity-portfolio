@@ -1,3 +1,0 @@
-**/out/               # forge build artifacts
-**/cache/             # forge compiler cache
-**/lib/               # forge libraries (installed via forge install)
