@@ -85,3 +85,15 @@
 [submodule "account-abstraction/lib/foundry-devops"]
 	path = account-abstraction/lib/foundry-devops
 	url = https://github.com/cyfrin/foundry-devops
+[submodule "huff-yul-solidity-comparison/lib/forge-std"]
+	path = huff-yul-solidity-comparison/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "huff-yul-solidity-comparison/lib/openzeppelin-contracts"]
+	path = huff-yul-solidity-comparison/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "huff-yul-solidity-comparison/lib/huffmate"]
+	path = huff-yul-solidity-comparison/lib/huffmate
+	url = https://github.com/huff-language/huffmate
+[submodule "huff-yul-solidity-comparison/lib/foundry-huff"]
+	path = huff-yul-solidity-comparison/lib/foundry-huff
+	url = https://github.com/huff-language/foundry-huff
