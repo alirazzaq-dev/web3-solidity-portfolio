@@ -1,0 +1,8 @@
+Saving last configuration file to .certora_internal/25_05_21_15_38_46_891/run.conf
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+Creating dir /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_38_46_891/.certora_config
+In /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Sqrt.spec, found the imports: []
+copying spec file /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Sqrt.spec to /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_38_46_891/.certora_sources/.0_Sqrt.spec.spec
+writing /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_38_46_891/.certora_verify.json
+Couldn't find the installed Java version.
+build failed

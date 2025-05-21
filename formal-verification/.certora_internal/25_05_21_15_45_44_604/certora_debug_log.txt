@@ -1,0 +1,18 @@
+Saving last configuration file to .certora_internal/25_05_21_15_45_44_604/run.conf
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+Creating dir /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_45_44_604/.certora_config
+In /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Sqrt.spec, found the imports: []
+copying spec file /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Sqrt.spec to /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_45_44_604/.certora_sources/.0_Sqrt.spec.spec
+writing /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_15_45_44_604/.certora_verify.json
+
+building file test/certora/CompactCodeBase.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/25_05_21_15_45_44_604/.certora_config/version_check_solc.stdout, .certora_internal/25_05_21_15_45_44_604/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.5727
+Running cmd solc -o ".certora_internal/25_05_21_15_45_44_604/.certora_config/CompactCodeBase.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/25_05_21_15_45_44_604/.certora_config/CompactCodeBase.sol_0.standard.stdout.json, .certora_internal/25_05_21_15_45_44_604/.certora_config/CompactCodeBase.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_05_21_15_45_44_604/.certora_config/CompactCodeBase.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.0106
+reading standard json data from .certora_internal/25_05_21_15_45_44_604/.certora_config/CompactCodeBase.sol_0.standard.stdout.json
+build failed

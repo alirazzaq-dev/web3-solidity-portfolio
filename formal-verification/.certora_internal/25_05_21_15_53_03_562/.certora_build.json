@@ -1,0 +1,597 @@
+{
+    "CompactCodeBase_00000000ce4604a0000000000000000000000002": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000002",
+                "allMethods": [
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mathMastersSqrt",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "9705a92b",
+                        "sourceBytes": {
+                            "begin": 576,
+                            "size": 111
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mathMastersSqrtStripped",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "913b297c",
+                        "sourceBytes": {
+                            "begin": 1427,
+                            "size": 587
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulWadUp",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "ae9768a8",
+                        "sourceBytes": {
+                            "begin": 138,
+                            "size": 122
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "solmateSqrtStripped",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "fd35d22d",
+                        "sourceBytes": {
+                            "begin": 693,
+                            "size": 728
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "uniSqrt",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "057a85ee",
+                        "sourceBytes": {
+                            "begin": 266,
+                            "size": 304
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f80fd5b5060043610610055575f3560e01c8063057a85ee14610059578063913b297c146100895780639705a92b146100b9578063ae9768a8146100e9578063fd35d22d14610119575b5f80fd5b610073600480360381019061006e9190610595565b610149565b60405161008091906105cf565b60405180910390f35b6100a3600480360381019061009e9190610595565b610206565b6040516100b091906105cf565b60405180910390f35b6100d360048036038101906100ce9190610595565b610274565b6040516100e091906105cf565b60405180910390f35b61010360048036038101906100fe91906105e8565b610285565b60405161011091906105cf565b60405180910390f35b610133600480360381019061012e9190610595565b610298565b60405161014091906105cf565b60405180910390f35b5f60038211156101f4578190505f60016002846101669190610680565b61017091906106b0565b90505b818110156101ee57809150817fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000015260028182856101b09190610680565b6101ba91906106b0565b6101c49190610680565b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000252610173565b50610201565b5f821461020057600190505b5b919050565b5f60b590508170ffffffffffffffffffffffffffffffffff1060071b82811c68ffffffffffffffffff1060061b8117905082811c64ffffffffff1060051b8117905082811c62ffff2a1060041b81179050818160011c1b91506201000083821c01820260121c915050919050565b5f61027e82610327565b9050919050565b5f6102908383610477565b905092915050565b5f8160b591507101000000000000000000000000000000000081106102c4578060801c90508160401b91505b690100000000000000000081106102e2578060401c90508160201b91505b6501000000000081106102fc578060201c90508160101b91505b63010000008110610314578060101c90508160081b91505b620100008101820260121c915050919050565b5f64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000260005260b590508170ffffffffffffffffffffffffffffffffff1060071b82811c68ffffffffffffffffff1060061b8117905082811c64ffffffffff1060051b8117905082811c62ffff2a1060041b81179050818160011c1b91506201000083821c01820260121c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c915081828404108203915050919050565b5f64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001600152815f190483118202156105265763bac65e5b6040526004601cfd5b6001828483010403610539576001830192505b670de0b6b3a764000082840204670de0b6b3a764000083850206151501905092915050565b5f80fd5b5f819050919050565b61057481610562565b811461057e575f80fd5b50565b5f8135905061058f8161056b565b92915050565b5f602082840312156105aa576105a961055e565b5b5f6105b784828501610581565b91505092915050565b6105c981610562565b82525050565b5f6020820190506105e25f8301846105c0565b92915050565b5f80604083850312156105fe576105fd61055e565b5b5f61060b85828601610581565b925050602061061c85828601610581565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f61068a82610562565b915061069583610562565b9250826106a5576106a4610626565b5b828204905092915050565b5f6106ba82610562565b91506106c583610562565b92508282019050808211156106dd576106dc610653565b5b9291505056fea264697066735822122067f67d0c4fef54a1082d79344aef08d9dd0683e16689a45a097e6f59e3de459564736f6c63430008140033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.20",
+                "constructorBytecode": "608060405234801561000f575f80fd5b506107198061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610055575f3560e01c8063057a85ee14610059578063913b297c146100895780639705a92b146100b9578063ae9768a8146100e9578063fd35d22d14610119575b5f80fd5b610073600480360381019061006e9190610595565b610149565b60405161008091906105cf565b60405180910390f35b6100a3600480360381019061009e9190610595565b610206565b6040516100b091906105cf565b60405180910390f35b6100d360048036038101906100ce9190610595565b610274565b6040516100e091906105cf565b60405180910390f35b61010360048036038101906100fe91906105e8565b610285565b60405161011091906105cf565b60405180910390f35b610133600480360381019061012e9190610595565b610298565b60405161014091906105cf565b60405180910390f35b5f60038211156101f4578190505f60016002846101669190610680565b61017091906106b0565b90505b818110156101ee57809150817fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000015260028182856101b09190610680565b6101ba91906106b0565b6101c49190610680565b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000252610173565b50610201565b5f821461020057600190505b5b919050565b5f60b590508170ffffffffffffffffffffffffffffffffff1060071b82811c68ffffffffffffffffff1060061b8117905082811c64ffffffffff1060051b8117905082811c62ffff2a1060041b81179050818160011c1b91506201000083821c01820260121c915050919050565b5f61027e82610327565b9050919050565b5f6102908383610477565b905092915050565b5f8160b591507101000000000000000000000000000000000081106102c4578060801c90508160401b91505b690100000000000000000081106102e2578060401c90508160201b91505b6501000000000081106102fc578060201c90508160101b91505b63010000008110610314578060101c90508160081b91505b620100008101820260121c915050919050565b5f64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000200015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0002000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000260005260b590508170ffffffffffffffffffffffffffffffffff1060071b82811c68ffffffffffffffffff1060061b8117905082811c64ffffffffff1060051b8117905082811c62ffff2a1060041b81179050818160011c1b91506201000083821c01820260121c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c9150818304820160011c915081828404108203915050919050565b5f64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001600152815f190483118202156105265763bac65e5b6040526004601cfd5b6001828483010403610539576001830192505b670de0b6b3a764000082840204670de0b6b3a764000083850206151501905092915050565b5f80fd5b5f819050919050565b61057481610562565b811461057e575f80fd5b50565b5f8135905061058f8161056b565b92915050565b5f602082840312156105aa576105a961055e565b5b5f6105b784828501610581565b91505092915050565b6105c981610562565b82525050565b5f6020820190506105e25f8301846105c0565b92915050565b5f80604083850312156105fe576105fd61055e565b5b5f61060b85828601610581565b925050602061061c85828601610581565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f61068a82610562565b915061069583610562565b9250826106a5576106a4610626565b5b828204905092915050565b5f6106ba82610562565b91506106c583610562565b92508282019050808211156106dd576106dc610653565b5b9291505056fea264697066735822122067f67d0c4fef54a1082d79344aef08d9dd0683e16689a45a097e6f59e3de459564736f6c63430008140033",
+                "constructorSrcmap": "107:2113:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "test/certora/CompactCodeBase.sol",
+                "immutables": [],
+                "internalFunctionStarts": [
+                    1664,
+                    1409,
+                    645,
+                    518,
+                    1429,
+                    664,
+                    1574,
+                    807,
+                    1712,
+                    1472,
+                    329,
+                    1487,
+                    1619,
+                    1374,
+                    1378,
+                    1512,
+                    1387,
+                    628,
+                    1143
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/MathMasters.sol|MathMasters",
+                        "declaringContract": "MathMasters",
+                        "method": {
+                            "contractName": "MathMasters",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "mulWad",
+                            "notpayable": true,
+                            "originalFile": "src/MathMasters.sol",
+                            "paramNames": [
+                                "x",
+                                "y"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 1842,
+                                "size": 436
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/MathMasters.sol|MathMasters",
+                        "declaringContract": "MathMasters",
+                        "method": {
+                            "contractName": "MathMasters",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "mulWadUp",
+                            "notpayable": true,
+                            "originalFile": "src/MathMasters.sol",
+                            "paramNames": [
+                                "x",
+                                "y"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 2339,
+                                "size": 577
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "src/MathMasters.sol|MathMasters",
+                        "declaringContract": "MathMasters",
+                        "method": {
+                            "contractName": "MathMasters",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": true,
+                            "name": "sqrt",
+                            "notpayable": true,
+                            "originalFile": "src/MathMasters.sol",
+                            "paramNames": [
+                                "x"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 3175,
+                                "size": 1635
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal"
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "z",
+                        "sourceLoc": {
+                            "begin": "449",
+                            "len": "5",
+                            "source": "0"
+                        }
+                    },
+                    "2": {
+                        "lhs": "x",
+                        "sourceLoc": {
+                            "begin": "472",
+                            "len": "19",
+                            "source": "0"
+                        }
+                    }
+                },
+                "methods": [
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulWadUp",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "ae9768a8",
+                        "sourceBytes": {
+                            "begin": 138,
+                            "size": 122
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mathMastersSqrt",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "9705a92b",
+                        "sourceBytes": {
+                            "begin": 576,
+                            "size": 111
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "solmateSqrtStripped",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "fd35d22d",
+                        "sourceBytes": {
+                            "begin": 693,
+                            "size": 728
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "uniSqrt",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "057a85ee",
+                        "sourceBytes": {
+                            "begin": 266,
+                            "size": 304
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "CompactCodeBase",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mathMastersSqrtStripped",
+                        "notpayable": true,
+                        "originalFile": "test/certora/CompactCodeBase.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "913b297c",
+                        "sourceBytes": {
+                            "begin": 1427,
+                            "size": 587
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external"
+                    }
+                ],
+                "name": "CompactCodeBase",
+                "original_file": "test/certora/CompactCodeBase.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 107,
+                    "size": 1909
+                },
+                "srcmap": "107:2113:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;266:508;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1631:587;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;780:111;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;138:122;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;897:728;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;266:508;317:9;346:1;342;:5;338:430;;;367:1;363:5;;382:9;402:1;398;394;:5;;;;:::i;:::-;:9;;;;:::i;:::-;382:21;;417:293;428:1;424;:5;417:293;;;453:1;449:5;;554:1;487:66;480:76;592:1;587;583;579;:5;;;;:::i;:::-;:9;;;;:::i;:::-;578:15;;;;:::i;:::-;574:19;;693:1;626:66;619:76;417:293;;;349:371;338:430;;;735:1;730;:6;726:42;;756:1;752:5;;726:42;338:430;266:508;;;:::o;1631:587::-;1712:9;1793:3;1788:8;;1869:1;1831:36;1828:43;1823:3;1819:53;1937:1;1934;1930:9;1908:20;1905:35;1900:3;1896:45;1893:1;1890:52;1885:57;;1999:1;1996;1992:9;1978:12;1975:27;1970:3;1966:37;1963:1;1960:44;1955:49;;2099:1;2096;2092:9;2082:8;2079:23;2074:3;2070:33;2067:1;2064:40;2059:45;;2139:1;2135;2130:3;2126:11;2122:19;2117:24;;2192:7;2188:1;2185;2181:9;2177:23;2174:1;2170:31;2164:4;2160:42;2155:47;;1742:470;1631:587;;;:::o;780:111::-;839:7;865:19;882:1;865:16;:19::i;:::-;858:26;;780:111;;;:::o;138:122::-;201:7;227:26;248:1;251;227:20;:26::i;:::-;220:33;;138:122;;;;:::o;897:728::-;960:9;1013:1;1033:3;1028:8;;1065:37;1062:1;1059:44;1049:136;;1137:1;1132:3;1128:11;1123:16;;1169:1;1165:2;1161:10;1156:15;;1049:136;1214:21;1211:1;1208:28;1198:119;;1269:1;1265:2;1261:10;1256:15;;1301:1;1297:2;1293:10;1288:15;;1198:119;1346:13;1343:1;1340:20;1330:111;;1393:1;1389:2;1385:10;1380:15;;1425:1;1421:2;1417:10;1412:15;;1330:111;1470:9;1467:1;1464:16;1454:106;;1513:1;1509:2;1505:10;1500:15;;1544:1;1541;1537:9;1532:14;;1454:106;1601:5;1598:1;1594:13;1591:1;1587:21;1583:2;1579:30;1574:35;;990:629;897:728;;;:::o;3879:1987:1:-;3927:9;4041:13;3973:66;3966:89;4131:1;4063:66;4056:77;4209:1;4141:66;4134:77;4287:1;4219:66;4212:77;4371:3;4366:8;;4662:1;4619:41;4616:48;4613:1;4609:56;4730:1;4727;4723:9;4699:22;4696:37;4693:1;4689:45;4686:1;4683:52;4678:57;;4791:1;4788;4784:9;4769:13;4766:28;4763:1;4759:36;4756:1;4753:43;4748:48;;4889:1;4886;4882:9;4872:8;4869:23;4866:1;4862:31;4859:1;4856:38;4851:43;;4927:1;4923;4920;4916:9;4912:17;4907:22;;5073:5;5069:1;5066;5062:9;5058:21;5055:1;5051:29;5047:2;5043:38;5038:43;;5272:1;5269;5265:9;5262:1;5258:17;5255:1;5251:25;5246:30;;5315:1;5312;5308:9;5305:1;5301:17;5298:1;5294:25;5289:30;;5358:1;5355;5351:9;5348:1;5344:17;5341:1;5337:25;5332:30;;5401:1;5398;5394:9;5391:1;5387:17;5384:1;5380:25;5375:30;;5444:1;5441;5437:9;5434:1;5430:17;5427:1;5423:25;5418:30;;5487:1;5484;5480:9;5477:1;5473:17;5470:1;5466:25;5461:30;;5530:1;5527;5523:9;5520:1;5516:17;5513:1;5509:25;5504:30;;5847:1;5843;5840;5836:9;5833:16;5830:1;5826:24;5821:29;;4352:1508;3879:1987;;;:::o;2691:929::-;2754:9;2868:13;2800:66;2793:89;2958:1;2890:66;2883:77;3036:1;2968:66;2961:77;3114:1;3046:66;3039:77;3299:1;3295;3291:6;3287:14;3284:1;3281:21;3278:1;3274:29;3271:158;;;3335:10;3329:4;3322:24;3410:4;3404;3397:18;3271:158;3475:1;3471;3467;3464;3460:9;3456:17;3452:25;3442:83;;3509:1;3506;3502:9;3497:14;;3442:83;3599:3;3595:1;3592;3588:9;3584:19;3576:3;3572:1;3569;3565:9;3561:19;3554:27;3547:35;3543:61;3538:66;;2691:929;;;;:::o;88:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o;1377:474::-;1445:6;1453;1502:2;1490:9;1481:7;1477:23;1473:32;1470:119;;;1508:79;;:::i;:::-;1470:119;1628:1;1653:53;1698:7;1689:6;1678:9;1674:22;1653:53;:::i;:::-;1643:63;;1599:117;1755:2;1781:53;1826:7;1817:6;1806:9;1802:22;1781:53;:::i;:::-;1771:63;;1726:118;1377:474;;;;;:::o;1857:180::-;1905:77;1902:1;1895:88;2002:4;1999:1;1992:15;2026:4;2023:1;2016:15;2043:180;2091:77;2088:1;2081:88;2188:4;2185:1;2178:15;2212:4;2209:1;2202:15;2229:185;2269:1;2286:20;2304:1;2286:20;:::i;:::-;2281:25;;2320:20;2338:1;2320:20;:::i;:::-;2315:25;;2359:1;2349:35;;2364:18;;:::i;:::-;2349:35;2406:1;2403;2399:9;2394:14;;2229:185;;;;:::o;2420:191::-;2460:3;2479:20;2497:1;2479:20;:::i;:::-;2474:25;;2513:20;2531:1;2513:20;:::i;:::-;2508:25;;2556:1;2553;2549:9;2542:16;;2577:3;2574:1;2571:10;2568:36;;;2584:18;;:::i;:::-;2568:36;2420:191;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": null,
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "CompactCodeBase",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000002",
+        "prototypeFor": [],
+        "sdc_name": "CompactCodeBase.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "test/certora/CompactCodeBase.sol",
+            "1": "src/MathMasters.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

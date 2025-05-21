@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "CompactCodeBase",
+    "specfile": "/Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Sqrt.spec",
+    "specfileOrigRelpath": "Certora/Sqrt.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,21 @@
+Saving last configuration file to .certora_internal/25_05_21_16_23_25_696/run.conf
+contract name NftMarketplace is the same as the file name and can be omitted from src/NFTMarketplace/NftMarketplace.sol:NftMarketplace
+contract name GasBadNftMarketplace is the same as the file name and can be omitted from src/NFTMarketplace/GasBadNftMarketplace.sol:GasBadNftMarketplace
+contract name NftMock is the same as the file name and can be omitted from test/NFTMarketplace/mocks/NftMock.sol:NftMock
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+Creating dir /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_16_23_25_696/.certora_config
+In /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Spec/GasBadNft.spec, found the imports: []
+copying spec file /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Spec/GasBadNft.spec to /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_16_23_25_696/.certora_sources/.0_GasBadNft.spec.spec
+writing /Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/.certora_internal/25_05_21_16_23_25_696/.certora_verify.json
+
+building file src/NFTMarketplace/GasBadNftMarketplace.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/25_05_21_16_23_25_696/.certora_config/version_check_solc.stdout, .certora_internal/25_05_21_16_23_25_696/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.0949
+Running cmd solc -o ".certora_internal/25_05_21_16_23_25_696/.certora_config/GasBadNftMarketplace.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/25_05_21_16_23_25_696/.certora_config/GasBadNftMarketplace.sol_0.standard.stdout.json, .certora_internal/25_05_21_16_23_25_696/.certora_config/GasBadNftMarketplace.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_05_21_16_23_25_696/.certora_config/GasBadNftMarketplace.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.0781
+reading standard json data from .certora_internal/25_05_21_16_23_25_696/.certora_config/GasBadNftMarketplace.sol_0.standard.stdout.json
+build failed

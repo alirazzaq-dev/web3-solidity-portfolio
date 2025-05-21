@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "GasBadNftMarketplace",
+    "specfile": "/Users/alirazzaq/Documents/Diary_Of_A_Blockchain_Engineer/web3-solidity-portfolio/formal-verification/Certora/Spec/GasBadNft.spec",
+    "specfileOrigRelpath": "Certora/Spec/GasBadNft.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

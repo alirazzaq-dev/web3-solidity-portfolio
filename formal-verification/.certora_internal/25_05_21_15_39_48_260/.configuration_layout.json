@@ -1,0 +1,119 @@
+[
+    {
+        "card_title": "general",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "Verify",
+                "content_type": "FLAG",
+                "content": "CompactCodeBase:./Certora/Sqrt.spec",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "CLI Version",
+                "content_type": "FLAG",
+                "content": "7.29.1",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "flags",
+                "content_type": "COMPLEX",
+                "content": [
+                    {
+                        "inner_title": "msg",
+                        "content_type": "FLAG",
+                        "content": "Verification of Math Masters sqrt function",
+                        "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#msg",
+                        "tooltip": "",
+                        "unsound": "false"
+                    },
+                    {
+                        "inner_title": "optimistic_loop",
+                        "content_type": "FLAG",
+                        "content": "true",
+                        "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#optimistic-loop",
+                        "tooltip": "",
+                        "unsound": "true"
+                    },
+                    {
+                        "inner_title": "rule_sanity",
+                        "content_type": "FLAG",
+                        "content": "basic",
+                        "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#rule-sanity",
+                        "tooltip": "",
+                        "unsound": "false"
+                    },
+                    {
+                        "inner_title": "wait_for_results",
+                        "content_type": "FLAG",
+                        "content": "all",
+                        "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#wait-for-results",
+                        "tooltip": "",
+                        "unsound": "false"
+                    }
+                ],
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    },
+    {
+        "card_title": "files",
+        "content_type": "SIMPLE",
+        "content": [
+            {
+                "inner_title": "files",
+                "content_type": "SIMPLE",
+                "content": [
+                    "./test/certora/CompactCodeBase.sol"
+                ],
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#files",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    },
+    {
+        "card_title": "git",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "branch",
+                "content_type": "FLAG",
+                "content": "master",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "dirty",
+                "content_type": "FLAG",
+                "content": "true",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "origin",
+                "content_type": "FLAG",
+                "content": "https://github.com/alirazzaq-dev/web3-solidity-portfolio.git",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "revision",
+                "content_type": "FLAG",
+                "content": "f775148c5d0ef3d661b9a43a39e3495cc096b480",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    }
+]

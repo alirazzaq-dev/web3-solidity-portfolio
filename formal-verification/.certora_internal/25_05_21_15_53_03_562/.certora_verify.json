@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "CompactCodeBase",
+    "specfile": "Certora/Sqrt.spec",
+    "specfileOrigRelpath": "Certora/Sqrt.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}
