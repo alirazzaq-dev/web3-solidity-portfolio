@@ -106,3 +106,6 @@
 [submodule "formal-verification/lib/openzeppelin-contracts"]
 	path = formal-verification/lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "assembly/lib/forge-std"]
+	path = assembly/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
